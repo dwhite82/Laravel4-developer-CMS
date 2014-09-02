@@ -3,7 +3,7 @@
 @if ($post->content_type == 'code')
     @section('headscripts')
     @parent
-        {{ HTML::style('js/highlight/styles/idea.css'); }}
+        {{ HTML::style('js/libs/highlight/styles/idea.css'); }}
     @stop
 @endif
 @section('infobar')
@@ -40,6 +40,6 @@
 @if ($post->content_type == 'code')
     @section('footscripts')
     @parent
-        {{ HTML::script('js/highlight/highlight.min.js'); }}
+        {{ HTML::script('js/libs/highlight/highlight.min.js'); }}
     @stop
 @endif

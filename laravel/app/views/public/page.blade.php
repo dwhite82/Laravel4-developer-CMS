@@ -26,7 +26,7 @@
                     @if ($post->content_placement == 'content')
                         @if ($post->content_type == 'code')
                             <pre>
-                                <code {{$post->container_attr}}>{{$post->content}}</code>
+                                <code {{$post->container_attr}}>{{{$post->content}}}</code>
                             </pre>
                         @elseif($page->permalink == 'contact')
                             {{$post->content}}
@@ -48,7 +48,7 @@
 @if (isset($post->content_type) && $post->content_type == 'code')
     @section('footscripts')
     @parent
-        {{ HTML::style('js/highlight/styles/googlecode.css'); }}
-        {{ HTML::script('js/highlight/highlight.min.js'); }}
+        {{ HTML::style('js/libs/highlight/styles/googlecode.css'); }}
+        {{ HTML::script('js/libs/highlight/highlight.min.js'); }}
     @stop
 @endif

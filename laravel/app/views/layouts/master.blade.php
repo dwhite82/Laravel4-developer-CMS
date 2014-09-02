@@ -54,9 +54,9 @@
 </footer>
 <!--End Footer -->
 @section('footscripts')
-    {{ HTML::script('js/jquery-1.7.2.min.js'); }}
-    {{ HTML::script('js/lightbox.js'); }}
-    {{ HTML::script('js/jquery.slides.min.js'); }}
+    {{ HTML::script('js/libs/jquery-1.7.2.min.js'); }}
+    {{ HTML::script('js/libs/lightbox.js'); }}
+    {{ HTML::script('js/libs/jquery.slides.min.js'); }}
     {{ HTML::script('js/functions.js'); }}
 @show
 

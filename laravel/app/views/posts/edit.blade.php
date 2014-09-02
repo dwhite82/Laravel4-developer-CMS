@@ -18,5 +18,5 @@
 
 @section('footscripts')
 @parent
-    {{ HTML::script('js/ckeditor/ckeditor.js'); }}
+    {{ HTML::script('js/libs/ckeditor/ckeditor.js'); }}
 @stop
