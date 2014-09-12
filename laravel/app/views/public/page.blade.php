@@ -20,7 +20,7 @@
                 @show
             </aside>
             <!--End Side Navigation -->
-            <div class="col8 last">
+            <div class="col8">
             @section('content')
                 @foreach ($posts as $post)
                     @if ($post->content_placement == 'content')

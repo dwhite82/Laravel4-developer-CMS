@@ -5,7 +5,7 @@
 @endif
 {{ HTML::ul($errors->all(), array('class'=> 'form-errors')) }}
 {{ Form::open(array('action' => 'PublicController@contact')) }}
-<div class="col6 last">
+<div class="col6">
     <span class="required">(Required Field)</span>
     {{ Form::label('name', 'Name:', array('class' => 'required textbox')) }}
     {{ Form::text('name', Input::old('name'), array('class' => 'textbox')) }}

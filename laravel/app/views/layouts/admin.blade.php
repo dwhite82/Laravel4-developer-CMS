@@ -17,7 +17,7 @@
             @show
             </aside>
             <!--End Side Navigation -->
-            <div class="col8 last">
+            <div class="col8">
                 @if(Session::has('message'))
                 <div class="alert {{Session::get('alert-class', 'alert-info')}}">
                     {{Session::get('message')}}

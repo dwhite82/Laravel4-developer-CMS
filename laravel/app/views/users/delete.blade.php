@@ -9,7 +9,7 @@
 <p>Are you sure you want to delete this user?</p>
 
     {{ Form::model($user, array('method' => 'DELETE', 'route' => array('pages.destroy', $user->id), 'class' => 'form-admin')) }}
-        <div class="col6 last">
+        <div class="col6">
         {{ Form::submit('Delete this User') }} <a href="{{ action('UserController@index') }}" class="button">Cancel</a>
         </div>
     {{ Form::close() }}

@@ -9,7 +9,7 @@
 <p>Are you sure you want to delete this page?</p>
 
     {{ Form::model($page, array('method' => 'DELETE', 'route' => array('pages.destroy', $page->id), 'class' => 'form-admin')) }}
-        <div class="col6 last">
+        <div class="col6">
         {{ Form::submit('Delete this Page') }}
         {{link_to(URL::previous(), 'Cancel', array('class' => 'button'))}}
         </div>

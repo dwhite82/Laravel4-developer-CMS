@@ -28,7 +28,7 @@
                     {{HTML::image('upload/feature-code.jpg', 'My Code Area');}}
                 </a>
             </div>
-            <div class="col4 last sm_dev">
+            <div class="col4 sm_dev">
                 <a href="{{URL::to('code')}}" class="feature">
                     <div class="lbl-feature">
                         <h4>&lt;code&gt;</h4>
@@ -56,7 +56,7 @@
 				in culpa qui officia deserunt mollit anim id est laborum.
                 </p>
             </article>
-            <aside class="infobar col4 last sm_dev">
+            <aside class="infobar col4 sm_dev">
                 <h2>Connect</h2>
                 <nav>
                     <ul>

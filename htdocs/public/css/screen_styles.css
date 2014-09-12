@@ -160,8 +160,8 @@ img {
 .col-full {
     margin: 0;
 }
-.last {
-    margin: 0px 0px 20px 0px;
+.gridrow  :last-child[class^="col"] { 
+	margin: 0 0 20px 0;
 }
 .col1 { width: 6.25%; } /* 60px/960px */
 .col2 { width: 14.583%; } /* 140px/960px */
